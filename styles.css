@@ -43,6 +43,7 @@ body {
 .menu {
     display: flex;
     align-items: center;
+    position:inherit;
 }
 
 .menu ul {
@@ -131,7 +132,7 @@ body {
 }
 
 .home-sci {
-    position: absolute;
+    position:fixed;
     bottom: 40px;
     display: flex;
     gap: 10px;
@@ -155,4 +156,9 @@ body {
 .home-sci a:hover {
     background: #00abf0;
     color: #fff;
+}
+
+.header-about {
+    font-family: 'Times New Roman';
+    color: #00abf0;
 }
